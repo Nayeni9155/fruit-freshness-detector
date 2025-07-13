@@ -1,12 +1,15 @@
+# Streamlit
 streamlit>=1.24.0
 
-# PyTorch and torchvision CPU versions
+# Required for PIL image upload
+Pillow
+
+# PyTorch and torchvision (CPU only versions)
 torch==2.0.1+cpu
 torchvision==0.15.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Other common dependencies
-Pillow
+# Utility packages
 matplotlib
 tqdm
 scikit-learn
