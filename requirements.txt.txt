@@ -1,6 +1,11 @@
-torch>=2.0.0
-torchvision>=0.15.0
+# PyTorch CPU-only versions (compatible with Streamlit Cloud)
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 streamlit>=1.24.0
 Pillow
 matplotlib
 tqdm
+scikit-learn
+
