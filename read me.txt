@@ -1,0 +1,24 @@
+# 🍎 Fruit Freshness Classifier
+
+A deep learning-based project to classify **fresh** vs **spoiled** fruits using a fine-tuned **ResNet50** model. This project includes a **Streamlit web app** for real-time image inference.
+
+---
+
+## 🚀 Project Features
+
+- Transfer learning using **ResNet50** pretrained on ImageNet
+- Custom dataset of **fresh** and **spoiled** fruits
+- Image preprocessing and normalization
+- Interactive **Streamlit UI** for predictions
+- Achieves >95% accuracy in test results
+
+---
+
+📈 Performance
+✅ Train Accuracy: ~99%
+
+✅ Validation Accuracy: ~98%
+
+✅ Test Accuracy: ~97%
+
+
